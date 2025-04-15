@@ -1,8 +1,8 @@
 ---
 
-# 🚏 Saleka API - Prediction Endpoint
+# 🚏 Salka API - Prediction Endpoint
 
-This document describes the request structure for the prediction endpoint used in the "Saleka" mobile app.
+This document describes the request structure for the prediction endpoint used in the "Salka" mobile app.
 
 ---
 
