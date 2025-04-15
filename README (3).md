@@ -6,12 +6,6 @@ This document describes the request structure for the prediction endpoint used i
 
 ---
 
-# Flask API for Machine Learning Model
-
-This repository contains a Flask-based API for predicting waiting times between locations using a machine learning model. The API takes user input (age, gender, location, etc.) and predicts the expected waiting time for a journey.
-
----
-
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
