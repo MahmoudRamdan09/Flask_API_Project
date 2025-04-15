@@ -165,7 +165,6 @@ curl -X POST "https://web-production-e146.up.railway.app/predict" \
 
 
 
-```
 
 ---
 
@@ -182,6 +181,7 @@ flask-api-ml/
 ├── Procfile              # Deployment configuration for Railway/Heroku
 └── README.md             # Project documentation
 ```
+
 
 ---
 
