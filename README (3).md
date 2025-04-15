@@ -177,7 +177,6 @@ flask-api-ml/
 ├── xgb_model_os.pkl      # Trained ML model
 ├── scaler.pkl            # Pre-trained scaler for numerical features
 ├── requirements.txt      # Project dependencies
-├── runtime.txt           # Specifies Python runtime version
 ├── Procfile              # Deployment configuration for Railway/Heroku
 └── README.md             # Project documentation
 ```
