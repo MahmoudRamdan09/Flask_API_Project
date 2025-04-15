@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # project_folder/
+# # project_folder/
+
 # ├── app.p
 # 
 # ├── requirements.txt
@@ -21,6 +22,7 @@ from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 import pandas as pd
+import os 
 
 # Initialize the Flask application
 app = Flask(__name__)
@@ -92,8 +94,8 @@ def predict():
 
 # Run the Flask application
 if __name__ == '__main__':
-    app.run(debug=True, host='10798', port=5000)
-
+port = int(os.environ.get('PORT', 5000))  
+    app.run(debug=False, host='0.0.0.0', port=port)  
 
 # # Prediction Endpoint
 # Route: /predict accepts POST requests.
